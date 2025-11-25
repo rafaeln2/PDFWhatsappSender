@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pdfwhatsappsender"
+version = "0.1.0"
+description = ""
+authors = ["rafaeln2 <rafaeln_nascimento@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.38.0"
+python-dotenv = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

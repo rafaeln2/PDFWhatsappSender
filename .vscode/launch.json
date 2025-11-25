@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run app.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/app/app.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "WHATSAPP_CONTACT": "48999999999",
+                "PDF_FOLDER": "./data/pdfs",
+                "CHROMEDRIVER_PATH": "/usr/bin/chromedriver"
+            }
+        }
+    ]
+}
