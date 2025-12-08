@@ -31,7 +31,7 @@ def send_pdfs():
     for arquivo in os.listdir(PDF_FOLDER):
         if arquivo.lower().endswith(".png"):
             caminho = os.path.join(PDF_FOLDER, arquivo)
-            print(f"📤 Enviando: {arquivo}")
+            print(f"Enviando: {arquivo}")
 
             clip_button = driver.find_element(By.XPATH, "//div[@title='Anexar']")
             clip_button.click()
